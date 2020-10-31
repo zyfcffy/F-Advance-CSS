@@ -37,3 +37,28 @@ ul {
   display: flex;
   justify-content: space-evenly;
 }
+
+.main {
+  padding: 20px 5.5%;
+}
+
+.aside-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 13%;
+}
+
+.aside-section {
+  padding-left: 10px;
+}
+
+.aside-section-about {
+  background-color: #f0f0f0;
+}
+
+.h-header {
+  font-style: italic;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
