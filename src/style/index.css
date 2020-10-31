@@ -48,7 +48,6 @@ ul {
   border: 1px solid yellowgreen;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
   width: 15%;
 }
 
@@ -57,7 +56,7 @@ ul {
 }
 
 .aside-section-about {
-  background-color: #f0f0f0;
+  background-color: #f8f8f8;
 }
 
 .h-header {
@@ -77,6 +76,10 @@ ul {
   flex-wrap: wrap;
 }
 
+.article2 {
+  order: 1;
+}
+
 .article {
   width: 49%;
   border: 2px solid lightgray;
@@ -84,8 +87,8 @@ ul {
 }
 
 .article h2,
-article p,
-article a {
+.article p,
+.article a {
   padding-left: 10px;
 }
 
@@ -95,7 +98,52 @@ article a {
   height: 150px;
 }
 
+.details-link {
+  text-decoration: none;
+  color: #007bff;
+}
+
 .aside-right {
   border: 1px solid yellowgreen;
   width: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.login {
+  height: 25%;
+  background-color: #f8f8f8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-input {
+  width: 85%;
+  height: 18%;
+  border: 1px solid #e0e0e0;
+}
+
+.radius-top {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.radius-bottom {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.login-check {
+  margin-left: 6px;
+  font-size: 14px;
+}
+
+.login-button {
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
 }
